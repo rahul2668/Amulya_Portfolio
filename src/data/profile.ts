@@ -2,12 +2,12 @@ import type { Profile, NavItem } from '../types';
 
 export const profile: Profile = {
   name: 'Amulya Pabbala',
-  title: 'SAP CFIN Consultant',
+  title: 'SAP FI/CO Consultant',
   tagline: 'SAP S/4 HANA Finance | Central Finance (CFIN) | SAP FICO | MDG',
-  email: 'amulyapabbala3@gmail.com',
-  phone: '+91 9963052095',
+  email: 'pabbalaamulya2668@gmail.com',
+  phone: '+91 9515673164',
   location: 'Hyderabad, Telangana',
-  linkedin: '',
+  linkedin: 'https://linkedin.com/in/amulya-pabbala-467464265',
   github: '',
   summary: `SAP Certified professional with 6 years of experience specialising in SAP HANA Finance and SAP Central Finance (CFIN), including 3 years on a global reconciliation project. Proven expertise in SAP FICO (ECC, S/4 HANA, CFIN), SAP MDG Materials, and integration of FI with SD and MM across Procure-to-Pay and Order-to-Cash cycles. Skilled in AIF monitoring, defect management (P1–P4) via Service Now and Jira, data reconciliation between source and target systems, and delivering root-cause analysis. Strong documentation background — SOP, KEDB, KCD preparation — and hands-on experience supporting UAT, period-end close, and production environments across globally distributed teams.`,
   resumeUrl: '/Amulya_Pabbala_SAP_Consultant_Resume.pdf',
