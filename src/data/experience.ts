@@ -1,0 +1,63 @@
+import type { Experience } from '../types';
+
+export const experiences: Experience[] = [
+  {
+    id: 'accenture',
+    company: 'Accenture',
+    role: 'Senior CFIN Consultant',
+    location: 'Hyderabad, India',
+    startDate: 'Jun 2025',
+    endDate: 'Present',
+    description:
+      'Working as Senior CFIN Consultant on the BP Quantum project, implementing S/4 HANA Central Finance for British Petroleum — a leading global integrated energy company.',
+    achievements: [
+      'Performed reconciliation between FBW source system and Central Finance (CFIN) to ensure accurate financial data transfer.',
+      'Analyzed variances across Company Code, Ledger, FS Item, GRM Code, Segment, and Business Code.',
+      'Identified mapping, substitution, migration, and ledger group mismatch issues impacting financial postings.',
+      'Conducted FBW to Group Reporting (GR) reconciliations to validate GL classification, GAAP flags, and financial statement alignment.',
+      'Executed global deployment data mapping and validation from source to CFIN.',
+      'Performed Group Reporting Opening Balance Reconciliation and supported Period-End Close activities.',
+      'Supported User Acceptance Testing (UAT) and resolved defects.',
+      'Handled production support, issue resolution, and month-end close support.',
+    ],
+    technologies: ['SAP S/4 HANA', 'SAP CFIN', 'SAP Group Reporting', 'FBW', 'SLT', 'UAT', 'GL'],
+  },
+  {
+    id: 'ltim',
+    company: 'LTI Mindtree (LTIM)',
+    role: 'SAP Senior CFIN Consultant',
+    location: 'Hyderabad, India',
+    startDate: 'Jan 2020',
+    endDate: 'Jun 2025',
+    description:
+      'Worked as SAP Senior CFIN Consultant supporting global clients Johnson & Johnson and Carrier across Central Finance implementation, production support, and pre-production activities.',
+    achievements: [
+      'Performed AIF Monitoring for all interfaces and created defects in SMT (Service Now), with Root Cause Analysis (RCA) to provide resolutions.',
+      'Resolved priority-based cases (P1, P2, P3, P4) as per SLA on the JNJ Central Finance project.',
+      'Provided RCA and solutions for various SAP MDG issues, including Data Extraction, Transformation and Loading of Master Data.',
+      'Worked on key and value mapping objects in Central Finance via Map Manage Table.',
+      'Performed FI and CO reconciliation using CFIN standard reports for initial load and real-time SLT replication.',
+      'Validated and reconciled financial data across dashboard tools: Analysis for Office (AO), Anaplan, Data Hub, E2E Dashboard, and Info Steward.',
+      'Prepared SOP, Knowledge Capture Documents (KCD), Known Error Database (KEDB), and Job Aids — uploaded to SharePoint for team access.',
+      'Supported automation team with productivity reporting, daily client reports, defect ageing per SLA, and MRC lookup file updates.',
+      'Handled day-to-day SLA-compliant tickets for Carrier covering Workflow, GL, AP, AR, AA, and Banking areas.',
+      'Validated and reconciled financial data from source systems to CFIN during initial SLT load for Carrier.',
+      'Provided end-user support during Month-End Close activities.',
+    ],
+    technologies: [
+      'SAP CFIN',
+      'SAP MDG',
+      'AIF Monitoring',
+      'Service Now (SMT)',
+      'Jira',
+      'Analysis for Office (AO)',
+      'Anaplan',
+      'SLT',
+      'SAP FICO',
+      'GL',
+      'AP',
+      'AR',
+      'AA',
+    ],
+  },
+];
